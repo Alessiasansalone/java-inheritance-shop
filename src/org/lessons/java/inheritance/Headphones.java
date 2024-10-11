@@ -21,12 +21,12 @@ public class Headphones extends Product{
 		details = "Wireless";
 	}
 	
-	protected Headphones(String name) {
-		super("Studio3", "Beats");
+	protected Headphones() {
+		super("MDR-7506", "Sony");
 		this.getCode();
-		this.price = 165.99;
-		color = "Rose Gold";
-		details = "Wireless";
+		this.price = 58.00;
+		color = "White";
+		details = "Wired";
 	}
 
 }

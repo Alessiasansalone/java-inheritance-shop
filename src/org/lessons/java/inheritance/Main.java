@@ -28,5 +28,14 @@ public class Main {
 		System.out.println(philips.toString());
 		
 		System.out.println("-------------------------------------------------------------------------------------------------------");
+		
+		Headphones marshall = new Headphones("Major IV", "Marshall");
+		System.out.println(marshall.toString());
+		
+		Headphones beats = new Headphones("Studio3");
+		System.out.println(beats.toString());
+		
+		Headphones sony = new Headphones();
+		System.out.println(sony.toString());
 	}
 }

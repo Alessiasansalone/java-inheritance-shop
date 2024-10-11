@@ -5,3 +5,6 @@ bin/org/lessons/java/inheritance/Main.class
 .project
 .classpath
 bin/org/lessons/java/inheritance/Television.class
+bin/org/lessons/java/inheritance/Headphones.class
+bin/org/lessons/java/inheritance/Headphones.class
+*.class
