@@ -40,9 +40,9 @@ public class Product {
 	@Override
 	public String toString() {
 		return "CODE: " + code + ", NAME: " + name 
-				+ ", BRAND: " + brand + ", costs €" + price 
-				+ ". Has a VAT of €" + getTotalIva() + " and a total "
-						+ "cost of €" + getTotalPrice();
+				+ ", BRAND: " + brand + ", COSTS: €" + price 
+				+ ". Has a VAT of €" + getTotalIva() + " and a TOTAL "
+						+ "PRICE of €" + getTotalPrice();
 	}
 
 	private void setCode() {

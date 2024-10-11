@@ -3,8 +3,9 @@ package org.lessons.java.inheritance;
 public class Main {
 	
 	public static void main(String[] args) {
-		Smartphone samsung = new Smartphone("Galaxy S8", "Samsung");
-		System.out.println(samsung.toString());
+		
+		Smartphone samsungPhone = new Smartphone("Galaxy S8", "Samsung");
+		System.out.println(samsungPhone.toString());
 		
 		Smartphone iPhone = new Smartphone("iPhone");
 		System.out.println(iPhone.toString());
@@ -14,5 +15,18 @@ public class Main {
 		
 		Smartphone honor = new Smartphone("Magic6 lite", "Honor", "8GB");
 		System.out.println(honor.toString());	
+		
+		System.out.println("-------------------------------------------------------------------------------------------------------");
+		
+		Television samsungTV = new Television("Hotel TV", "Samnsung");
+		System.out.println(samsungTV.toString());
+		
+		Television geloso = new Television("Televisore Vintage Wood GT1014");
+		System.out.println(geloso.toString());
+		
+		Television philips = new Television();
+		System.out.println(philips.toString());
+		
+		System.out.println("-------------------------------------------------------------------------------------------------------");
 	}
 }
