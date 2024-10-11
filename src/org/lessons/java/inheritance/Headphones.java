@@ -1,5 +1,32 @@
 package org.lessons.java.inheritance;
 
-public class Headphones {
+public class Headphones extends Product{
+	
+	String color;
+	String details;
+	
+	protected Headphones(String name, String brand) {
+		super("Major IV", "Marshall");
+		this.getCode();
+		this.price = 78.00;
+		color = "Black";
+		details = "Wireless";
+	}
+	
+	protected Headphones(String name) {
+		super("Studio3", "Beats");
+		this.getCode();
+		this.price = 165.99;
+		color = "Rose Gold";
+		details = "Wireless";
+	}
+	
+	protected Headphones(String name) {
+		super("Studio3", "Beats");
+		this.getCode();
+		this.price = 165.99;
+		color = "Rose Gold";
+		details = "Wireless";
+	}
 
 }
