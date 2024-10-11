@@ -2,7 +2,7 @@ package org.lessons.java.inheritance;
 
 public class Smartphone extends Product {
 	
-	String codeIMEI;
+	protected String codeIMEI;
 	String ram;
 
 	protected Smartphone(String name, String brand) {

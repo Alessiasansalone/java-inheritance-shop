@@ -36,14 +36,7 @@ public class Product {
 	protected String getTotalPrice() {
 		return setTotalPrice();
 	}
-
-	@Override
-	public String toString() {
-		return "CODE: " + code + ", NAME: " + name 
-				+ ", BRAND: " + brand + ", COSTS: €" + price 
-				+ ". Has a VAT of €" + getTotalIva() + " and a TOTAL "
-						+ "PRICE of €" + getTotalPrice();
-	}
+	
 
 	private void setCode() {
 		Random ran = new Random();
@@ -54,4 +47,13 @@ public class Product {
 		setCode();
 		return this.code;
 	}
+
+	@Override
+	public String toString() {
+		return "CODE: " + code + ", NAME: " + name 
+				+ ", BRAND: " + brand + ", COSTS: €" + price 
+				+ ". Has a VAT of €" + getTotalIva() + " and a TOTAL "
+						+ "PRICE of €" + getTotalPrice();
+	}
+
 }
