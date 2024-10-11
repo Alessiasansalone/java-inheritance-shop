@@ -4,6 +4,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
+		System.out.println("OUR SMARTPHONES");
+		
 		Smartphone samsungPhone = new Smartphone("Galaxy S8", "Samsung");
 		System.out.println(samsungPhone.toString() + "[IMEI CODE: " 
 					+ samsungPhone.codeIMEI + ", RAM: "+ samsungPhone.ram);
@@ -22,6 +24,8 @@ public class Main {
 		
 		System.out.println("-------------------------------------------------------------------------------------------------------");
 		
+		System.out.println("OUR TELEVISIONS");
+		
 		Television samsungTV = new Television("Hotel TV", "Samnsung");
 		System.out.println(samsungTV.toString() + ", SMART TV: " + samsungTV.smart 
 				+ ", SIZE: " + samsungTV.size);
@@ -35,6 +39,8 @@ public class Main {
 				+ ", SIZE: " + philips.size);
 		
 		System.out.println("-------------------------------------------------------------------------------------------------------");
+		
+		System.out.println("OUR HEADPHONES");
 		
 		Headphones marshall = new Headphones("Major IV", "Marshall");
 		System.out.println(marshall.toString() + ", COLOR: " + marshall.color 
