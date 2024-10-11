@@ -23,23 +23,29 @@ public class Main {
 		System.out.println("-------------------------------------------------------------------------------------------------------");
 		
 		Television samsungTV = new Television("Hotel TV", "Samnsung");
-		System.out.println(samsungTV.toString());
+		System.out.println(samsungTV.toString() + ", SMART TV: " + samsungTV.smart 
+				+ ", SIZE: " + samsungTV.size);
 		
 		Television geloso = new Television("Televisore Vintage Wood GT1014");
-		System.out.println(geloso.toString());
+		System.out.println(geloso.toString() + ", SMART TV: " + geloso.smart 
+				+ ", SIZE: " + geloso.size);
 		
 		Television philips = new Television();
-		System.out.println(philips.toString());
+		System.out.println(philips.toString() + ", SMART TV: " + philips.smart 
+				+ ", SIZE: " + philips.size);
 		
 		System.out.println("-------------------------------------------------------------------------------------------------------");
 		
 		Headphones marshall = new Headphones("Major IV", "Marshall");
-		System.out.println(marshall.toString());
+		System.out.println(marshall.toString() + ", COLOR: " + marshall.color 
+				+ ", WIRELESS: " + marshall.wireless);
 		
 		Headphones beats = new Headphones("Studio3");
-		System.out.println(beats.toString());
+		System.out.println(beats.toString() + ", COLOR: " + beats.color 
+				+ ", WIRELESS: " + beats.wireless);
 		
 		Headphones sony = new Headphones();
-		System.out.println(sony.toString());
+		System.out.println(sony.toString() + ", COLOR: " + sony.color 
+				+ ", WIRELESS: " + sony.wireless);
 	}
 }

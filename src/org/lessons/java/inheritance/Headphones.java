@@ -3,14 +3,14 @@ package org.lessons.java.inheritance;
 public class Headphones extends Product{
 	
 	String color;
-	String details;
+	String wireless;
 	
 	protected Headphones(String name, String brand) {
 		super("Major IV", "Marshall");
 		this.getCode();
 		this.price = 78.00;
 		color = "Black";
-		details = "Wireless";
+		wireless = "Yes";
 	}
 	
 	protected Headphones(String name) {
@@ -18,7 +18,7 @@ public class Headphones extends Product{
 		this.getCode();
 		this.price = 165.99;
 		color = "Rose Gold";
-		details = "Wireless";
+		wireless = "Yes";
 	}
 	
 	protected Headphones() {
@@ -26,7 +26,7 @@ public class Headphones extends Product{
 		this.getCode();
 		this.price = 58.00;
 		color = "White";
-		details = "Wired";
+		wireless = "No";
 	}
 
 }
