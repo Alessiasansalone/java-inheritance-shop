@@ -2,13 +2,14 @@ package org.lessons.java.inheritance;
 
 public class Smartphone extends Product {
 	
-	int codeIMEI;
+	String codeIMEI;
 	String ram;
 
 	protected Smartphone(String name, String brand) {
 		super("Galaxy S24", "Samsung");
 		this.getCode();
 		this.price = 598.99;
+		codeIMEI = "562957501528472";
 		ram = "8GB";
 	}
 	
@@ -16,6 +17,7 @@ public class Smartphone extends Product {
 		super("iPhone X", "Apple");
 		this.getCode();
 		this.price = 1062.89;
+		codeIMEI = "729562846108765";
 		ram = "3GB";
 	}
 	
@@ -23,6 +25,7 @@ public class Smartphone extends Product {
 		super("3310", "Nokia");
 		this.getCode();
 		this.price = 95.99;
+		codeIMEI = "013275639877246";
 		ram = "16MB";
 	}
 	
@@ -30,7 +33,8 @@ public class Smartphone extends Product {
 		super("Magic6 lite", "Honor");
 		this.getCode();
 		this.price = 357.89;
-		ram = "8GB";
+		codeIMEI = "285927385929175";
+		this.ram = "8GB";
 	}
 
 }
